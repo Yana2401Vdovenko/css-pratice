@@ -1,0 +1,46 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Body styles */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header, main, footer styles */
+.header {
+    background-color: lightblue;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.main {
+    background-color: lightgreen;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: lightcoral;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+/* Text styles */
+.text {
+    font-size: 24px;
+    color: white;
+}
